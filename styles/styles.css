@@ -7,10 +7,9 @@ a {
     color: black;
 }
 
-li {
-    list-style: none;
+p {
+    margin: 0; 
 }
-
 
 h3 {
     margin: 0;
@@ -30,4 +29,21 @@ h3 {
 
 .stats-grand-chelems > li {
     list-style: circle;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+.rounds-header {
+    text-align: center;
+}
+
+.rounds-list {
+    text-align: center;
+    list-style: none;
 }
