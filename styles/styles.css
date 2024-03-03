@@ -1,18 +1,20 @@
 body {
-    font-family: 'JetBrains Mono';
+    font-family: "JetBrains Mono";
 }
 
 a {
-    text-decoration: none;
     color: black;
 }
 
 p {
-    margin: 0; 
+    margin: 0;
 }
 
+h2 {
+    text-align: center;
+}
 h3 {
-    margin: 0;
+    text-align: center;
 }
 
 .q1-list > li {
@@ -37,6 +39,7 @@ h1 {
 
 nav {
     text-align: center;
+    margin: 0.8em;
 }
 
 .rounds-header {
@@ -46,4 +49,58 @@ nav {
 .rounds-list {
     text-align: center;
     list-style: none;
+}
+
+.rounds-list > a {
+    text-decoration: underline;
+}
+
+table {
+    margin: 0 auto;
+}
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;    
+}
+
+th {
+    width: 200px;
+}
+
+td {
+    text-align: center;
+}
+
+.legend {
+    text-align: center;
+}
+
+nav > a{
+    text-decoration: underline;
+}
+
+.ul-stats {
+    margin: 0 auto;
+}
+
+.previous-round {
+    display: inline;
+    float: left;
+}
+
+.next-round {
+    display: inline;
+    float: right;
+}
+
+.round-header {
+    vertical-align: middle;
+    margin: 0 1.5em;
+}
+
+.circuit-map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
 }
