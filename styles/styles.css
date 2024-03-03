@@ -1,0 +1,33 @@
+body {
+    font-family: 'JetBrains Mono';
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+
+h3 {
+    margin: 0;
+}
+
+.q1-list > li {
+    list-style: decimal;
+}
+
+.stats-grand-prix {
+    font-weight: 500;
+}
+
+.stats-grand-chelems > li {
+    list-style: decimal;
+}
+
+.stats-grand-chelems > li {
+    list-style: circle;
+}
