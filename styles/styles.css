@@ -51,6 +51,10 @@ nav {
     list-style: none;
 }
 
+.rounds-list > li {
+    margin-bottom: 0.5em;
+}
+
 .rounds-list > a {
     text-decoration: underline;
 }
