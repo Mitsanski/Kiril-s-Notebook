@@ -47,12 +47,14 @@ nav {
 }
 
 .rounds-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
     list-style: none;
 }
 
 .rounds-list > li {
-    margin-bottom: 0.5em;
+    margin-bottom: 0.8em;
 }
 
 .rounds-list > a {
@@ -73,6 +75,7 @@ th {
 
 td {
     text-align: center;
+    width: 50px;
 }
 
 .legend {
